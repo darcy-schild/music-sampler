@@ -1,0 +1,134 @@
+/* you will add css rules for element selectors and IDs */
+/* you may add to or change the body rule */
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #333;
+    margin: 0;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+article {
+    color: #000;
+    max-width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cougar {
+    background-color: #B26219;
+    align-items: center;
+}
+
+#lion {
+    background-color: #FFBD82;
+    align-items: center;
+}
+
+#tiger {
+    background-color: #FFD5AE;
+    align-items: center;
+}
+
+section {
+    max-width: 600px;
+}
+
+.text {
+    background-color: #fff;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+header a {
+    color: #90DCE4;
+}
+
+header a:hover {
+    color: #BDEAEF;
+}
+
+
+a {
+    color: #13363D;
+}
+a:hover {
+    color: #4B1B12;
+}
